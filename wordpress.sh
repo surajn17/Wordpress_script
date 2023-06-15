@@ -75,7 +75,7 @@ services:
       - ./wp-content:/var/www/html/wp-content
     restart: always
     ports:
-      - "8000:80"
+      - "80:80"
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: wordpress

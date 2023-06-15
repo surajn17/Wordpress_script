@@ -5,7 +5,7 @@ WordPress sites.
 
 # Prerequisites
 Before using this script, make sure you have the following dependencies installed on 
-your Ubuntu system:
+your Ubuntu/Amazon linux system:
 
 Docker
 
@@ -13,6 +13,8 @@ Docker Compose
 
 If any of the dependencies are missing, the script will automatically install them for 
 you
+
+FOR BEST PRACTICE USED AMAZON LINUX
 # Usage
 To use this script, open your terminal and run the following command:
 gitclone url of the repository 

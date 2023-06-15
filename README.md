@@ -6,14 +6,28 @@ WordPress sites.
 # Prerequisites
 Before using this script, make sure you have the following dependencies installed on 
 your Ubuntu system:
+
 Docker
+
 Docker Compose
+
 If any of the dependencies are missing, the script will automatically install them for 
 you
 # Usage
 To use this script, open your terminal and run the following command:
 gitclone url of the repository 
-After that you see script file then run this command:
+
+After this you see a folder ..goto the folder using cd command
+
+After that you see script file
+
+Run a command 
+
+chmod a+x wordpress.sh
+
+this command give execute permission to the file
+
+ then run this command:
 ./wordpress.sh [subcommand] [site_name]
 # Subcommands
 The script supports the following subcommands:

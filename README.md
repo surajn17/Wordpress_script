@@ -74,6 +74,7 @@ container. You may modify this as per your security requirements.
 • The script adds an entry to the /etc/hosts file for each created site. This allows 
 accessing the site in a web browser using the provided site_name
 
+
 # IMPORTANT
 
 After running the script you have to make an entry in your computer hosts file . 
